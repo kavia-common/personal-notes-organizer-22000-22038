@@ -13,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning>
+      <body
+        className="bg-background text-text flex flex-col min-h-screen"
+        suppressHydrationWarning
+      >
         {children}
       </body>
     </html>
